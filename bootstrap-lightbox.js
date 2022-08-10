@@ -2,7 +2,7 @@
 * Bootstrap Lightbox
 * @name bootstrap-lightbox.js
 * @author Mattia - http://www.matriz.it
-* @version 1.0.0
+* @version 1.0.1
 * @date August 10, 2022
 * @copyright (c) 2022 Mattia at Matriz.it (info@matriz.it)
 * @license MIT - http://opensource.org/licenses/mit-license.php
