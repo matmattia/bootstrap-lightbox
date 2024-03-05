@@ -2,19 +2,19 @@
  * Bootstrap Lightbox
  * @name bootstrap-lightbox.js
  * @author Mattia - https://www.matriz.it
- * @version 1.1.0
- * @date March 3, 2024
+ * @version 1.1.1
+ * @date March 5, 2024
  * @copyright (c) 2024 Mattia at Matriz.it (info@matriz.it)
  * @license MIT - https://opensource.org/license/mit
  * @example Visit https://www.matriz.it/projects/bootstrap-lightbox/ for more informations
  */
 var bootstrapLightbox = {
 	'init': function(s) {
-		var a = document.querySelectorAll(s), l = a.length, i = 0;
+		var that = this, a = document.querySelectorAll(s), l = a.length, i = 0;
 		for (i = 0; i < l; i++) {
 			a[i].addEventListener('click', function(e) {
 				e.preventDefault();
-				modal.openImage(this.href);
+				that.openImage(this.href);
 			});
 		}
 	},
