@@ -1,6 +1,6 @@
 # Bootstrap Lightbox
 
-
+[![Donate via PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=MQVMRTV6PW4AQ)
 
 ## More info
 
