@@ -2,9 +2,9 @@
  * Bootstrap Lightbox
  * @name bootstrap-lightbox.js
  * @author Mattia - https://www.matriz.it
- * @version 1.1.1
- * @date March 5, 2024
- * @copyright (c) 2024 Mattia at Matriz.it (info@matriz.it)
+ * @version 1.1.2
+ * @date February 1, 2025
+ * @copyright (c) 2025 Mattia at Matriz.it (info@matriz.it)
  * @license MIT - https://opensource.org/license/mit
  * @example Visit https://www.matriz.it/projects/bootstrap-lightbox/ for more informations
  */
@@ -19,7 +19,7 @@ var bootstrapLightbox = {
 		}
 	},
 	'initImages': function() {
-		this.init('a[href$=".gif"],a[href$=".jpg"],a[href$=".jpeg"],a[href$=".png"],a[href$=".webp"]');
+		this.init('a[href$=".apng"],a[href$=".avif"],a[href$=".gif"],a[href$=".jfif"],a[href$=".jpg"],a[href$=".jpeg"],a[href$=".pjp"],a[href$=".pjpeg"],a[href$=".png"],a[href$=".svg"],a[href$=".webp"]');
 	},
 	'modals': {},
 	'open': function(body, n) {
